@@ -29,5 +29,9 @@ header {
 .Infinity {
   width: 100px;
   height: 100px;
-  float: left;
+  float: left; /*This forces the text to wrap around the image element*/
+}
+
+.user-details {
+  float: right;
 }
