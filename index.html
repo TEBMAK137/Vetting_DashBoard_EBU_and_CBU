@@ -9,60 +9,61 @@
   <body>
     <!--Top part of the web-->
 
-    <header>
+    <header id="top_head">
       <h1>
         Vetting Dashboard
         <img class="Infinity" src="./Pictures/infinitylogo.jpeg" />
       </h1>
       <h2>Financial Institution Core Vetting System</h2>
       <input class="user-details" />
-
-      <!-- -->
-
-      <nav>
-        <div>
-          <h3>Total Recieved</h3>
-          <h3>Processed</h3>
-          <h3>Pending</h3>
-          <h3>LOA Approval</h3>
-          <h3>Fraud Verification</h3>
-          <h3>Declined</h3>
-          <h3>Cancelled</h3>
-        </div>
-      </nav>
     </header>
 
     <!-- -->
 
-    <aside>
-      <div>
-        <h2>VetCheck Data</h2>
-        <h3>
-          <a>Dashboard</a>
-        </h3>
-        <h3>
-          <a>Applications</a>
-        </h3>
-        <h3>
-          <a>Consumer Vetting</a>
-        </h3>
-        <h3>
-          <a>Corporate Vetting</a>
-        </h3>
-        <h3>
-          <a>Fraud Escalations</a>
-        </h3>
-        <h3>
-          <a>QA Checklist</a>
-        </h3>
-        <h3>
-          <a>Reports</a>
-        </h3>
-        <h3>
-          <a>Settings</a>
-        </h3>
+    <div id="daily_stats">
+      <div class="stats">
+        <h3>Total Recieved</h3>
+        <h3>Processed</h3>
+        <h3>Pending</h3>
+        <h3>LOA Approval</h3>
+        <h3>Fraud Verification</h3>
+        <h3>Declined</h3>
+        <h3>Cancelled</h3>
+      </div>
+    </div>
+
+    <!-- -->
+
+    <aside id="side_bar">
+      <div id="vc-data">
+        <h3>VetCheck Data</h3>
+        <ul>
+          <li>Dashboard</li>
+          <li>Applications</li>
+          <li>Consumer Vetting</li>
+          <li>Corporate Vetting</li>
+          <li>Fraud Escalations</li>
+          <li>QA Checklist</li>
+          <li>Reports</li>
+          <li>Settings</li>
+        </ul>
       </div>
     </aside>
+
+    <!-- -->
+
+    <nav>
+      <div>
+        <div class="app_pipeline">
+          <h3>Application Pipeline</h3>
+          <button>All</button>
+          <button>Consumer</button>
+          <button>Corporate</button>
+          <button>Escalated</button>
+          <button>Fraud</button>
+        </div>
+      </div>
+    </nav>
 
     <!-- -->
 

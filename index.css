@@ -18,6 +18,24 @@ main {
   background-color: #cbd5e1;
 }
 
+#top_head {
+  /* display: inline-flex; */
+  /* display: flex; */
+  gap: 10px;
+}
+
+#daily_stats {
+  display: flex;
+  gap: 10px;
+}
+
+.stats {
+}
+
+/* #side_bar {
+  position: fixed;
+} */
+
 header {
   /* position: fixed; */
   top: 0;
