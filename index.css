@@ -2,39 +2,41 @@ h1 {
   color: #043c58;
 }
 
-.Go {
-  color: #14a5aa;
+body {
+  border: 0;
+  margin: 0;
 }
 
-.IVA {
-  color: #043c58;
-}
+/* Colors:
+#043C58
+#14A5AA
+#64748B
+#FFFFFF
+#CBD5E1
+#475569
+#1E293B
+#14A5AA
+#043C58
+#A16207
+#F0F4F8
+#10B981
+#EF4444
+#EAB308
+#F1F5F9
+#000000
+#047857
+#10B981
+#D97706
+#F59E0B
+#dceaeb
 
-.text-iva {
-  color: #64748b;
-}
+*/
 
-main {
-  background-color: #cbd5e1;
-}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-#top_head {
-  /* display: inline-flex; */
-  /* display: flex; */
-  gap: 10px;
-}
+/* Header (Top part of the web) */
 
-#daily_stats {
-  display: flex;
-  gap: 10px;
-}
-
-.stats {
-}
-
-/* #side_bar {
-  position: fixed;
-} */
+/* Parent/Container Code */
 
 header {
   /* position: fixed; */
@@ -42,7 +44,18 @@ header {
   left: 0;
   right: 0;
   display: block;
+  background-color: white;
+  border: 8px solid black;
 }
+
+#top_head {
+  /* position: fixed; */
+  /* display: inline-flex; */
+  display: flex;
+  gap: 10px;
+}
+
+/* Child/Descendant(s) Code */
 
 .Infinity {
   width: 100px;
@@ -50,6 +63,154 @@ header {
   float: left; /*This forces the text to wrap around the image element*/
 }
 
-.user-details {
-  float: right;
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Section- Daily Stats (Under the Top part) */
+
+/* Parent/Container Code */
+
+#first-section {
+  background-color: #cbd5e1;
+  border: 8px solid black;
 }
+
+#daily_stats {
+  background-color: white;
+  display: inline-flex;
+  /* flex-direction: column; */
+  gap: 10px;
+}
+
+/* Child/Descendant(s) Code */
+
+.stats > h3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.stats {
+  flex-basis: 20%;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Aside- Vetcheck Pro Side Bar */
+
+/* Parent/Container Code */
+
+#side_bar {
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #043c58;
+  border: 8px solid black;
+}
+
+/* Child/Descendant(s) Code */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Nav- Center Nav (Application Pipeline) */
+
+/* Parent/Container Code */
+
+#NAV {
+  background-color: #cbd5e1;
+  padding: 10px;
+  border: 8px solid black;
+}
+#AP {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Child/Descendant(s) Code */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Main- Documents Requirement & QA Verification Checklist (DR&QA) */
+
+/* Parent/Container Code */
+
+main {
+  background-color: #cbd5e1;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 8px solid black;
+}
+
+#RDC_QAC {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Child/Descendant(s) Code */
+
+/*1. Article- Documents Requirement*/
+
+/* Parent/Container Code */
+
+/* Child/Descendant(s) Code */
+
+/*2. Section- QA Verification Checklist*/
+
+/* Parent/Container Code */
+
+#QA_VC {
+  background-color: white;
+  padding: 10px;
+}
+/* Child/Descendant(s) Code */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Article- Intergrated Vetting Applications */
+
+/* Parent/Container Code */
+
+#IVA_id {
+  background-color: #cbd5e1;
+  /* border: 0px;
+  margin: 0; */
+}
+
+.IVA1 {
+  background-color: #cbd5e1;
+  padding: 10px;
+}
+/* Child/Descendant(s) Code */
+
+.IVA {
+  color: #043c58;
+}
+
+.IVA_li {
+  border: 02px solid #64748b;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-iva {
+  color: #64748b;
+  /* border: 10px solid #64748b; */
+  border-radius: 20px;
+}
+
+.Go {
+  color: #14a5aa;
+  background-color: #dceaeb;
+  border-radius: 03px;
+  padding: 04px;
+  width: 100px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */

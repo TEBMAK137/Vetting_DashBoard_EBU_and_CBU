@@ -7,7 +7,7 @@
     <title>Vetting Dashboard</title>
   </head>
   <body>
-    <!--Top part of the web-->
+    <!-- Header (Top part of the web) -->
 
     <header id="top_head">
       <h1>
@@ -15,45 +15,51 @@
         <img class="Infinity" src="./Pictures/infinitylogo.jpeg" />
       </h1>
       <h2>Financial Institution Core Vetting System</h2>
+      <button><span>🔔</span></button>
       <input class="user-details" />
     </header>
 
-    <!-- -->
+    <!-- Section- Daily Stats (Under the Top part)-->
 
-    <div id="daily_stats">
-      <div class="stats">
-        <h3>Total Recieved</h3>
-        <h3>Processed</h3>
-        <h3>Pending</h3>
-        <h3>LOA Approval</h3>
-        <h3>Fraud Verification</h3>
-        <h3>Declined</h3>
-        <h3>Cancelled</h3>
+    <section id="first-section">
+      <div id="daily_stats">
+        <div class="stats">
+          <h3>Total Recieved</h3>
+          <h3>Processed</h3>
+          <h3>Pending</h3>
+          <h3>LOA Approval</h3>
+          <h3>Fraud Verification</h3>
+          <h3>Declined</h3>
+          <h3>Cancelled</h3>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <!-- -->
+    <!-- Aside- Vetcheck Pro Side Bar -->
 
     <aside id="side_bar">
       <div id="vc-data">
-        <h3>VetCheck Data</h3>
+        <h3>🫆VetCheck Data</h3>
         <ul>
           <li>Dashboard</li>
-          <li>Applications</li>
-          <li>Consumer Vetting</li>
-          <li>Corporate Vetting</li>
-          <li>Fraud Escalations</li>
+          <ul>
+            Yh
+          </ul>
+          <li>📱Applications</li>
+          <li>👤Consumer Vetting</li>
+          <li>🏢Corporate Vetting</li>
+          <li>⚠️Fraud Escalations</li>
           <li>QA Checklist</li>
           <li>Reports</li>
-          <li>Settings</li>
+          <li class="settings">⚙️Settings</li>
         </ul>
       </div>
     </aside>
 
-    <!-- -->
+    <!-- Nav- Center Nav (Application Pipeline)-->
 
-    <nav>
-      <div>
+    <nav id="NAV">
+      <div id="AP">
         <div class="app_pipeline">
           <h3>Application Pipeline</h3>
           <button>All</button>
@@ -61,26 +67,19 @@
           <button>Corporate</button>
           <button>Escalated</button>
           <button>Fraud</button>
+          <ul>
+            <li></li>
+          </ul>
         </div>
       </div>
     </nav>
 
-    <!-- -->
+    <!-- Main- Documents Requirement & QA Verification Checklist (DR&QA)-->
 
+    <!-- Article- Documents Requirement -->
     <main>
-      <div>
-        <h2>
-          Application Pipeline
-          <ul>
-            <li></li>
-          </ul>
-        </h2>
-      </div>
-
-      <!-- -->
-
-      <article>
-        <div>
+      <article id="RDC_QAC">
+        <div class="RDC RDC_div">
           <h3>Required Documentation Checklist</h3>
           <h3>Consumer Documents</h3>
           <ul>
@@ -89,11 +88,11 @@
             <li>Recent 3 Months Bank Statement</li>
             <li>Consent Form</li>
             <li>XDS</li>
-            <li></li>
-            <li></li>
+            <!-- <li></li>
+            <li></li> -->
           </ul>
 
-          <h3>Corporate Documents</h3>
+          <h3 class="C_D RDC_div">Corporate Documents</h3>
           <ul>
             <li>Goverment-Issued ID</li>
             <li>Consent to Vet</li>
@@ -106,31 +105,31 @@
         </div>
       </article>
 
-      <!-- -->
+      <!-- Section- QA Verification Checklist -->
 
-      <section>
-        <div>
+      <section id="QA_VC">
+        <div class="QA_checklist">
           <h3>QA Verification Checklist</h3>
           <ul>
             <li>Identity verification cross-referenced</li>
             <li>Address validation completed</li>
             <li>Credit bureau check performed</li>
+            <!-- <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
+            <li></li> -->
           </ul>
         </div>
       </section>
     </main>
 
-    <!-- -->
+    <!-- Intergrated Vetting Applications -->
 
-    <article>
-      <div>
-        <h2>Intergrated Vetting Applications</h2>
+    <article id="IVA_id">
+      <div class="IVA1">
+        <h2><span>🌐</span>Intergrated Vetting Applications</h2>
         <ul class="IVA">
-          <li>
+          <li class="IVA_li">
             Transunion Credit Bureau
             <p class="text-iva">
               Comprehensive credit history pulls and report generation.
@@ -142,7 +141,8 @@
               <button class="Go">Launch</button>
             </a>
           </li>
-          <li>
+
+          <li class="IVA_li">
             Experian Credit Bureau
             <p class="text-iva">
               Real-time income, identity and employment database check.
@@ -151,7 +151,8 @@
               <button class="Go">Launch</button>
             </a>
           </li>
-          <li>
+
+          <li class="IVA_li">
             BEAM
             <p class="text-iva">
               Comprehensive credit history pulls and report generation.
@@ -163,7 +164,8 @@
               <button class="Go">Launch</button>
             </a>
           </li>
-          <li>
+
+          <li class="IVA_li">
             Morpheus MII
             <p class="text-iva">
               Comprehensive credit history pulls and report generation.
@@ -172,7 +174,8 @@
               <button class="Go">Launch</button>
             </a>
           </li>
-          <li>
+
+          <li class="IVA_li">
             C-Advance
             <p class="text-iva">
               Comprehensive credit history pulls and report generation.
@@ -184,29 +187,32 @@
               <button class="Go">Launch</button>
             </a>
           </li>
-          Application Fraud Validations
-          <p class="text-iva">
-            Comprehensive credit history pulls and report generation.
-          </p>
-          <li>
+
+          <li class="IVA_li">
+            Application Fraud Validations
+            <p class="text-iva">
+              Comprehensive credit history pulls and report generation.
+            </p>
             <a href="AFV@cellc.co.za" target="_blank">
               <button class="Go">Launch</button>
             </a>
           </li>
-          CIPC Company Registry
-          <p class="text-iva">
-            Corporate structures, directorship and legal registration checks.
-          </p>
-          <li>
+
+          <li class="IVA_li">
+            CIPC Company Registry
+            <p class="text-iva">
+              Corporate structures, directorship and legal registration checks.
+            </p>
             <a href="https://eservices.cipc.co.za/Login.aspx" target="_blank">
               <button class="Go">Launch</button>
             </a>
           </li>
-          Google Earth
-          <p class="text-iva">
-            Corporate structures, directorship and legal registration checks.
-          </p>
-          <li>
+
+          <li class="IVA_li">
+            Google Earth
+            <p class="text-iva">
+              Corporate structures, directorship and legal registration checks.
+            </p>
             <a
               href="https://earth.google.com/web/@0,0,0a,22251752.77375655d,35y,0h,0t,0r/data=CgRCAggBOgMKATBCAggBSg0I____________ARAA"
               target="_blank"
@@ -218,12 +224,10 @@
       </div>
     </article>
 
-    <!-- -->
+    <!-- <figure></figure>
 
-    <figure></figure>
 
-    <!-- -->
 
-    <footer></footer>
+    <footer></footer> -->
   </body>
 </html>
