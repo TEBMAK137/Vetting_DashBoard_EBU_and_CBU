@@ -45,7 +45,7 @@ header {
   right: 0;
   display: block;
   background-color: white;
-  border: 8px solid black;
+  /* border: 8px solid black; */
 }
 
 #top_head {
@@ -71,7 +71,10 @@ header {
 
 #first-section {
   background-color: #cbd5e1;
-  border: 8px solid black;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 8px solid black; */
 }
 
 #daily_stats {
@@ -79,19 +82,14 @@ header {
   display: inline-flex;
   /* flex-direction: column; */
   gap: 10px;
+  border-radius: 20px;
 }
 
 /* Child/Descendant(s) Code */
 
-.stats > h3 {
-  height: 50px;
-  width: 50px;
-  border-radius: 5px;
-  background-color: white;
-}
-
 .stats {
   flex-basis: 20%;
+  padding: 10px;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -104,10 +102,11 @@ header {
   display: flex;
   flex-direction: column;
   min-height: 400px;
+  max-width: 250px;
   align-items: flex-start;
   gap: 20px;
   background-color: #043c58;
-  border: 8px solid black;
+  /* border: 8px solid black; */
 }
 
 /* Child/Descendant(s) Code */
@@ -120,13 +119,14 @@ header {
 
 #NAV {
   background-color: #cbd5e1;
-  padding: 10px;
-  border: 8px solid black;
+  padding: 30px;
+  /* border: 8px solid black; */
 }
 #AP {
   display: flex;
   background-color: white;
   padding: 10px;
+  border-radius: 20px;
 }
 
 /* Child/Descendant(s) Code */
@@ -139,16 +139,17 @@ header {
 
 main {
   background-color: #cbd5e1;
-  padding: 10px;
+  padding: 30px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  border: 8px solid black;
+  /* border: 8px solid black; */
 }
 
 #RDC_QAC {
   background-color: white;
   padding: 10px;
+  border-radius: 20px;
 }
 
 /* Child/Descendant(s) Code */
@@ -166,6 +167,7 @@ main {
 #QA_VC {
   background-color: white;
   padding: 10px;
+  border-radius: 20px;
 }
 /* Child/Descendant(s) Code */
 
@@ -177,13 +179,15 @@ main {
 
 #IVA_id {
   background-color: #cbd5e1;
+  padding: 30px;
   /* border: 0px;
   margin: 0; */
 }
 
 .IVA1 {
-  background-color: #cbd5e1;
+  background-color: white;
   padding: 10px;
+  border-radius: 20px;
 }
 /* Child/Descendant(s) Code */
 
