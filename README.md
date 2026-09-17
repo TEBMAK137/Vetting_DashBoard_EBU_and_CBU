@@ -1,4 +1,4 @@
-# Vetiing_DashBoard_EBU_and_CBU
+# Vetting_DashBoard_EBU_and_CBU
 
 Vetting Dashboard
 A comprehensive financial institution core vetting system for managing application pipelines, compliance documentation, and integrated verification services.
